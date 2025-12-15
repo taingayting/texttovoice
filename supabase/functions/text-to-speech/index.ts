@@ -14,6 +14,11 @@ interface RequestBody {
   pitch: number;
 }
 
+interface ServiceAccount {
+  client_email: string;
+  private_key: string;
+}
+
 Deno.serve(async (req: Request) => {
   if (req.method === "OPTIONS") {
     return new Response(null, {
@@ -117,7 +122,7 @@ Deno.serve(async (req: Request) => {
   }
 });
 
-async function getAccessToken(serviceAccount: any): Promise<string> {
+async function getAccessToken(serviceAccount: ServiceAccount): Promise<string> {
   const now = Math.floor(Date.now() / 1000);
   const expiry = now + 3600;
 
