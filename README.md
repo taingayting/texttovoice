@@ -137,7 +137,11 @@ The application will be available at `http://localhost:5173`
 3. **Google Cloud TTS API**: Generates the audio based on the provided parameters
 4. **Response**: Audio is returned to the frontend as an MP3 file
 
-### API Parameter Mapping
+<img width="854" height="244" alt="image" src="https://github.com/user-attachments/assets/c457e092-1384-421e-88ec-a615a70f277b" />
+
+**1.1 System Logical Architecture Diagram**
+
+   ### API Parameter Mapping
 
 The application maps user controls to Google Cloud TTS API parameters:
 
@@ -276,3 +280,31 @@ MIT
 For issues and questions:
 - Google Cloud TTS Documentation: https://cloud.google.com/text-to-speech/docs
 - Supabase Edge Functions: https://supabase.com/docs/guides/functions
+<img width="591" height="421" alt="image" src="https://github.com/user-attachments/assets/e3772ed5-1fa2-42bc-a266-a53897e4374c" />
+
+  **1.2 System main interface design diagram**
+  
+<img width="550" height="576" alt="image" src="https://github.com/user-attachments/assets/2a233b36-7765-44f5-9bac-3542fd768af0" />
+
+  **1.3 Main Interface**
+  
+<img width="600" height="596" alt="image" src="https://github.com/user-attachments/assets/a300cc86-ee62-4c2b-b374-edb9933ca80e" />
+  
+  **1.4 Select Language and Voice Model**
+  
+<img width="631" height="650" alt="image" src="https://github.com/user-attachments/assets/fe2ca42f-8934-4342-ab2e-46a0795344f4" />        
+
+  **1.5 Image of clicking "Generate"**
+  
+<img width="418" height="597" alt="image" src="https://github.com/user-attachments/assets/9c560e38-5b20-4a14-a722-6b1c3aa58e10" />   
+
+  **1.6 After "Generate Audio", the Audio Player appears**
+  
+<img width="800" height="660" alt="image" src="https://github.com/user-attachments/assets/957ba31d-7c59-4bf4-bcd3-066183abde36" />
+
+  **1.7 Clicking "Download MP3" allows you to download audio**
+
+
+
+
+
